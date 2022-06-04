@@ -462,3 +462,25 @@ font-size: 1.2rem;
     transform: rotate(360deg);
     
   } 
+
+
+  @media screen and (max-height: 400px) {
+   
+    .check {
+      width: 95px;
+    }
+    
+    .check.none {
+      width: 95px;
+      }
+      .x {
+
+      width: 95px;
+       
+      }
+   
+    .x.add {
+    width: 95px;
+    }
+    
+  }

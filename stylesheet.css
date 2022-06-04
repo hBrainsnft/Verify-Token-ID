@@ -1,0 +1,296 @@
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+
+.output-container {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body { 
+   
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.check {
+  width: 150px;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.check.none {
+  opacity: 0;
+  width: 150px;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  .x {
+    opacity: 0;
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+
+
+.x.add {
+  opacity: 100;
+  width: 150px;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+  .search {
+     
+      display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+
+  #myInput {
+      background-color: #a8daf2;
+      height: 75px;
+      width: 400px;
+      padding-left: 20px;
+      margin-right: 20px;
+      border-style: outset;
+      border-width: 5px;
+      border-radius: 30px;
+    font-family: Cornerstone;
+    font-size: 1.5rem;
+      border-color: #000;
+      box-shadow: 10px 10px 0px rgb(0, 0, 0);
+     
+}
+
+textarea:focus, input:focus{
+  outline: none;
+
+}
+::placeholder { 
+  color: #000;
+  font-size: 1.5rem;
+}
+
+  #inputButton {
+  
+    display: flex;
+      background-color: #f8ee8e;
+      height: 90px;
+      width: 100px;
+      padding-left: 30px;
+      margin-right: 20px;
+      padding-top: 28px;
+      border-style: outset;
+      border-width: 5px;
+      border-radius: 30px;
+      font-family: Cornerstone;
+      font-size: 1.5rem;
+      border-color: #000;
+      box-shadow: 10px 10px 0px rgb(0, 0, 0);
+      
+  }
+
+ #inputButton:hover{
+    
+  transform: translate(2px, 2px);
+  box-shadow: 8px 8px 0px rgb(0, 0, 0);
+  }
+
+   #inputButton:active {
+    transform: translate(6px, 6px);
+  box-shadow: 4px 4px 0px rgb(0, 0, 0);
+  background-color: #fffad1;
+}
+
+
+   body {
+      color: #000;
+      background-color: #edebd3;
+    }
+
+  
+
+    h1,
+    p {
+      color: #000;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      font-family: Cornerstone;
+    }
+  
+  
+  /* Verify Color */
+
+  /* RED */
+
+  body.red {
+    background: #cb4848;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+ 
+
+  #inputButton.red{
+   
+    background-color: #f8ee8e;
+    -webkit-transition: 1s;
+    transition: 1s;
+    transition-property: background-color;
+  }
+
+  #myInput.red{
+    
+    background-color: #f8ee8e;
+    -webkit-transition: 1s;
+    transition: 1s;
+    transition-property: background-color;
+  }
+
+  /* GREEN */
+
+  body.green {
+    background: #60c8a8;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+
+
+
+  #inputButton.green{
+    background-color: #a8daf2;
+    -webkit-transition: 1s;
+    transition: 1s;
+    transition-property: background-color;
+  }
+
+  #myInput.green{
+    background-color: #a8daf2;
+    -webkit-transition: 1s;
+    transition: 1s;
+    transition-property: background-color;
+  }
+
+h2 {
+  font-size: 2rem;
+  -webkit-transition: 0.4s;
+      transition: 0.4s;
+      font-family: Cornerstone;
+      text-align: center;
+}
+
+#about.green {
+  color: #000;
+  font-size: 2rem;
+  -webkit-transition: 0.4s;
+      transition: 0.4s;
+      font-family: Cornerstone;
+}
+
+
+  @media only screen and (max-width: 600px) {
+    
+  #inputButton {
+  
+    
+      height: 90px;
+      width: 100px;
+      padding-left: 30px;
+      margin-right: 20px;
+      padding-top: 28px;
+      border-style: outset;
+      border-width: 5px;
+      border-radius: 30px;
+      font-family: Cornerstone;
+      font-size: 1.5rem;
+      border-color: #000;
+      box-shadow: 10px 10px 0px rgb(0, 0, 0);
+  }
+
+ #inputButton:hover{
+    
+  transform: translate(2px, 2px);
+  box-shadow: 8px 8px 0px rgb(0, 0, 0);
+  }
+
+   #inputButton:active {
+    transform: translate(6px, 6px);
+  box-shadow: 4px 4px 0px rgb(0, 0, 0);
+  background-color: #fffad1;
+}
+
+#myInput {
+  background-color: #60c8a8;
+  height: 75px;
+  width: 250px;
+  padding-left: 20px;
+  margin-right: 20px;
+  border-style: outset;
+  border-width: 5px;
+  border-radius: 30px;
+font-family: Cornerstone;
+font-size: 1.5rem;
+  border-color: #000;
+  box-shadow: 10px 10px 0px rgb(0, 0, 0);
+}
+
+  }
+
+  .logo {
+    width: 30px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+  #brain:hover {
+    transition: 0.4 ease;
+    -webkit-transition: 0.40s;
+    -moz-transition: 0.40s;
+    -ms-transition: 0.40s;
+    -o-transition: 0.40s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+  } 

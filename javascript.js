@@ -72,17 +72,27 @@ function getInputValue() {
   // Selecting the input element and get its value
   var inputVal = document.getElementById("myInput").value;
 
+
   // Displaying the value
   if (inputVal == "") {}
 
   else if (inputVal == "0.0.653544") {
-    about("Early Brain")
-    addGreen();
-   
-
-
-  } else {
+    about("Early Brain");
+    addGreen(); 
+  } else if (inputVal == "0.0.925294") {
+      about("ℏBrains");
+      addGreen();
+    } else if (inputVal == "0.0.954624") {
+      about("ℏBrains Whitelist Token");
+      addGreen();
+    } 
+    
+    
+    
+    
+    else {
     addRed();
    clear();
   }
+
 }

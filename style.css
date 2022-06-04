@@ -37,7 +37,7 @@ body {
 }
 
 .check {
-  width: 100px;
+  width: 150px;
   margin: 0;
   position: absolute;
   top: 20%;
@@ -50,7 +50,7 @@ body {
 
 .check.none {
   opacity: 0;
-  width: 100px;
+  width: 150px;
   margin: 0;
   position: absolute;
   top: 20%;
@@ -61,7 +61,7 @@ body {
 }
   .x {
     opacity: 0;
-    width: 100px;
+    width: 150px;
     margin: 0;
     position: absolute;
     top: 20%;
@@ -75,7 +75,7 @@ body {
 
 
 .x.add {
-  opacity: 100;
+  opacity: 150;
   width: 100px;
   margin: 0;
   position: absolute;
@@ -314,6 +314,29 @@ h2 {
 
 
   @media only screen and (max-width: 600px) {
+
+
+    .check {
+      width: 120px;
+    }
+    
+    .check.none {
+      width: 120px;
+      }
+      .x {
+
+      width: 120px;
+       
+      }
+   
+    .x.add {
+    width: 120px;
+    }
+    
+
+
+
+
 
 h2 {
   font-size: 1.2rem;

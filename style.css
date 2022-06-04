@@ -193,6 +193,7 @@ textarea:focus, input:focus{
 
 
   #inputButton.green{
+ 
     background-color: #a8daf2;
     -webkit-transition: 1s;
     transition: 1s;
@@ -227,7 +228,7 @@ h2 {
     
   #inputButton {
   
-    
+    color: #000;
       height: 90px;
       width: 100px;
       padding-left: 30px;

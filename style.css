@@ -1,6 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 
 @font-face {
-  font-family: Cornerstone;
+  font-family: myFirstFont;
   src: url(Cornerstone.ttf);
 }
 
@@ -10,8 +17,11 @@
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 
@@ -20,7 +30,9 @@
   position: absolute;
   top: 45%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 body { 
@@ -36,7 +48,9 @@ body {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
  
 }
 
@@ -47,7 +61,9 @@ body {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
   .x {
     opacity: 0;
@@ -56,7 +72,9 @@ body {
     position: absolute;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   
   }
   
@@ -69,15 +87,25 @@ body {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 
 }
 
   .search {
      
+      display: -webkit-box;
+     
+      display: -ms-flexbox;
+     
       display: flex;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 
   }
 
@@ -93,7 +121,8 @@ align-items: center;
     font-family: Cornerstone;
     font-size: 1.5rem;
       border-color: #000;
-      box-shadow: 10px 10px 0px rgb(0, 0, 0);
+      -webkit-box-shadow: 10px 10px 0px rgb(0, 0, 0);
+              box-shadow: 10px 10px 0px rgb(0, 0, 0);
      
 }
 
@@ -101,12 +130,32 @@ textarea:focus, input:focus{
   outline: none;
 
 }
+::-webkit-input-placeholder { 
+  color: #000;
+  font-size: 1.5rem;
+}
+::-moz-placeholder { 
+  color: #000;
+  font-size: 1.5rem;
+}
+:-ms-input-placeholder { 
+  color: #000;
+  font-size: 1.5rem;
+}
+::-ms-input-placeholder { 
+  color: #000;
+  font-size: 1.5rem;
+}
 ::placeholder { 
   color: #000;
   font-size: 1.5rem;
 }
 
   #inputButton {
+  
+    display: -webkit-box;
+  
+    display: -ms-flexbox;
   
     display: flex;
       background-color: #f8ee8e;
@@ -121,19 +170,28 @@ textarea:focus, input:focus{
       font-family: Cornerstone;
       font-size: 1.5rem;
       border-color: #000;
-      box-shadow: 10px 10px 0px rgb(0, 0, 0);
+      -webkit-box-shadow: 10px 10px 0px rgb(0, 0, 0);
+              box-shadow: 10px 10px 0px rgb(0, 0, 0);
       
   }
 
  #inputButton:hover{
     
-  transform: translate(2px, 2px);
-  box-shadow: 8px 8px 0px rgb(0, 0, 0);
+  -webkit-transform: translate(2px, 2px);
+    
+      -ms-transform: translate(2px, 2px);
+    
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 8px 8px 0px rgb(0, 0, 0);
+          box-shadow: 8px 8px 0px rgb(0, 0, 0);
   }
 
    #inputButton:active {
-    transform: translate(6px, 6px);
-  box-shadow: 4px 4px 0px rgb(0, 0, 0);
+    -webkit-transform: translate(6px, 6px);
+        -ms-transform: translate(6px, 6px);
+            transform: translate(6px, 6px);
+  -webkit-box-shadow: 4px 4px 0px rgb(0, 0, 0);
+          box-shadow: 4px 4px 0px rgb(0, 0, 0);
   background-color: #fffad1;
 }
 
@@ -149,6 +207,7 @@ textarea:focus, input:focus{
     p {
       color: #000;
       -webkit-transition: 0.4s;
+      -o-transition: 0.4s;
       transition: 0.4s;
       font-family: Cornerstone;
     }
@@ -161,6 +220,7 @@ textarea:focus, input:focus{
   body.red {
     background: #cb4848;
     -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
   }
 
@@ -170,7 +230,10 @@ textarea:focus, input:focus{
    
     background-color: #f8ee8e;
     -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
     transition-property: background-color;
   }
 
@@ -178,7 +241,10 @@ textarea:focus, input:focus{
     
     background-color: #f8ee8e;
     -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
     transition-property: background-color;
   }
 
@@ -187,29 +253,36 @@ textarea:focus, input:focus{
   body.green {
     background: #60c8a8;
     -webkit-transition: 2s;
+    -o-transition: 2s;
     transition: 2s;
   }
 
 
 
   #inputButton.green{
- 
     background-color: #a8daf2;
     -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
     transition-property: background-color;
   }
 
   #myInput.green{
     background-color: #a8daf2;
     -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
     transition-property: background-color;
   }
 
 h2 {
   font-size: 2rem;
   -webkit-transition: 0.4s;
+      -o-transition: 0.4s;
       transition: 0.4s;
       font-family: Cornerstone;
       text-align: center;
@@ -219,6 +292,7 @@ h2 {
   color: #000;
   font-size: 2rem;
   -webkit-transition: 0.4s;
+      -o-transition: 0.4s;
       transition: 0.4s;
       font-family: Cornerstone;
 }
@@ -228,7 +302,7 @@ h2 {
     
   #inputButton {
   
-    color: #000;
+    
       height: 90px;
       width: 100px;
       padding-left: 30px;
@@ -240,23 +314,32 @@ h2 {
       font-family: Cornerstone;
       font-size: 1.5rem;
       border-color: #000;
-      box-shadow: 10px 10px 0px rgb(0, 0, 0);
+      -webkit-box-shadow: 10px 10px 0px rgb(0, 0, 0);
+              box-shadow: 10px 10px 0px rgb(0, 0, 0);
   }
 
  #inputButton:hover{
     
-  transform: translate(2px, 2px);
-  box-shadow: 8px 8px 0px rgb(0, 0, 0);
+  -webkit-transform: translate(2px, 2px);
+    
+      -ms-transform: translate(2px, 2px);
+    
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 8px 8px 0px rgb(0, 0, 0);
+          box-shadow: 8px 8px 0px rgb(0, 0, 0);
   }
 
    #inputButton:active {
-    transform: translate(6px, 6px);
-  box-shadow: 4px 4px 0px rgb(0, 0, 0);
+    -webkit-transform: translate(6px, 6px);
+        -ms-transform: translate(6px, 6px);
+            transform: translate(6px, 6px);
+  -webkit-box-shadow: 4px 4px 0px rgb(0, 0, 0);
+          box-shadow: 4px 4px 0px rgb(0, 0, 0);
   background-color: #fffad1;
 }
 
 #myInput {
-  background-color: #60c8a8;
+  background-color: #a8daf2;
   height: 75px;
   width: 200px;
   padding-left: 20px;
@@ -267,7 +350,8 @@ h2 {
 font-family: Cornerstone;
 font-size: 1.5rem;
   border-color: #000;
-  box-shadow: 10px 10px 0px rgb(0, 0, 0);
+  -webkit-box-shadow: 10px 10px 0px rgb(0, 0, 0);
+          box-shadow: 10px 10px 0px rgb(0, 0, 0);
 }
 
   }
@@ -278,20 +362,35 @@ font-size: 1.5rem;
     position: absolute;
     top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
    
   }
 
   #brain:hover {
+    -webkit-transition: 0.4 ease;
+    -o-transition: 0.4 ease;
     transition: 0.4 ease;
     -webkit-transition: 0.40s;
     -moz-transition: 0.40s;
     -ms-transition: 0.40s;
     -o-transition: 0.40s;
     -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
     
-  } 
+  } .example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}

@@ -16,6 +16,7 @@
   -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+    font-size: 2rem;
 }
 
 .container {
@@ -99,6 +100,8 @@ body {
 -webkit-box-align: center;
     -ms-flex-align: center;
         align-items: center;
+        -webkit-tap-highlight-color: transparent;
+      
       
 
   }
@@ -120,6 +123,7 @@ body {
       border-color: #000000;
       -webkit-box-shadow: 10px 10px rgb(0, 0, 0);
       box-shadow: 10px 10px rgb(0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
               
   }
 
@@ -177,7 +181,7 @@ textarea:focus, input:focus{
       border-color: #000;
       -webkit-box-shadow: 10px 10px rgb(0, 0, 0);
               box-shadow: 10px 10px rgb(0, 0, 0);
-      
+              -webkit-tap-highlight-color: transparent;
   }
 
  #inputButton:hover{
@@ -189,6 +193,7 @@ textarea:focus, input:focus{
           transform: translate(2px, 2px);
   -webkit-box-shadow: 8px 8px rgb(0, 0, 0);
           box-shadow: 8px 8px rgb(0, 0, 0);
+          
   }
 
    #inputButton:active {
@@ -203,7 +208,7 @@ textarea:focus, input:focus{
 
    body {
       color: #000;
-      background-color: #edebd3;
+      background-color: #ff979d;
       overflow: visible;
     }
 
@@ -241,6 +246,7 @@ textarea:focus, input:focus{
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
+    -webkit-tap-highlight-color: transparent;
   }
 
   #myInput.red{
@@ -252,6 +258,7 @@ textarea:focus, input:focus{
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* GREEN */
@@ -273,6 +280,7 @@ textarea:focus, input:focus{
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
+    -webkit-tap-highlight-color: transparent;
   }
 
   #myInput.green{
@@ -283,6 +291,7 @@ textarea:focus, input:focus{
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
+    -webkit-tap-highlight-color: transparent;
   }
 
 h2 {
@@ -296,7 +305,7 @@ h2 {
 
 #about.green {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 2rem;
   -webkit-transition: 0.4s;
       -o-transition: 0.4s;
       transition: 0.4s;
@@ -306,9 +315,25 @@ h2 {
 
   @media only screen and (max-width: 600px) {
 
+h2 {
+  font-size: 1.2rem;
+}
+    #about.green {
+    
+      font-size: 1.2rem;
+     
+    }
+
+
+
+    #about.red {
+    
+      font-size: 1.2rem;
+     
+    }
     .output-container {
       margin-top: 30px;
-      font-size: 1.5rem;
+    
     }
 
   
@@ -351,27 +376,18 @@ h2 {
       border-color: #000000;
       -webkit-box-shadow: 10px 10px rgb(0, 0, 0);
               box-shadow: 10px 10px rgb(0, 0, 0);
+              -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+                                  
+
   }
 
- #inputButton:hover{
-    
-  -webkit-transform: translate(2px, 2px);
-    
-      -ms-transform: translate(2px, 2px);
-    
-          transform: translate(2px, 2px);
-  -webkit-box-shadow: 8px 8px rgb(0, 0, 0);
-          box-shadow: 8px 8px rgb(0, 0, 0);
-  }
-
-   #inputButton:active {
-    -webkit-transform: translate(6px, 6px);
-        -ms-transform: translate(6px, 6px);
-            transform: translate(6px, 6px);
-  -webkit-box-shadow: 4px 4px rgb(0, 0, 0);
-          box-shadow: 4px 4px rgb(0, 0, 0);
-  background-color: #fffad1;
-}
+  
 
 #myInput {
  
@@ -382,13 +398,18 @@ h2 {
 
   border-style: solid;
 font-family: Cornerstone;
-font-size: 1.5rem;
-  
+font-size: 1.2rem;
+-webkit-tap-highlight-color: transparent;
   
 
  
 }
-
+#myInput.red{
+  font-size: 1.2rem;
+}
+#myInput.green{
+  font-size: 1.2rem;
+}
 
 
   }

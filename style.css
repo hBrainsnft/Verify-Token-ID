@@ -1,6 +1,6 @@
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Cornerstone;
   src: url(Cornerstone.ttf);
 }
 
@@ -257,7 +257,7 @@ h2 {
 #myInput {
   background-color: #60c8a8;
   height: 75px;
-  width: 250px;
+  width: 200px;
   padding-left: 20px;
   margin-right: 20px;
   border-style: outset;

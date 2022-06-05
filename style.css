@@ -483,4 +483,23 @@ font-size: 1.2rem;
     width: 95px;
     }
     
+    h2 {
+      font-size: .8rem;
+    }
+        #about.green {
+        
+          font-size: .8rem;
+         
+        }
+    
+    
+    
+        #about.red {
+        
+          font-size: .8rem;
+         
+        }
+
+
+
   }

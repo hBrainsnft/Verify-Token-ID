@@ -75,8 +75,8 @@ body {
 
 
 .x.add {
-  opacity: 150;
-  width: 100px;
+  opacity: 100;
+  width: 150px;
   margin: 0;
   position: absolute;
   top: 20%;
@@ -310,6 +310,94 @@ h2 {
       -o-transition: 0.4s;
       transition: 0.4s;
       font-family: Cornerstone;
+}
+
+.popupContainer {
+  position: absolute;
+  background-color: #d3d3d3;
+  height: 90%;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: .2s;
+    font-size: 2rem;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 25px;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+
+.popupVis {
+visibility: hidden;
+opacity: 0%;
+transition: .2s;
+}
+
+
+.popupOn {
+
+  position: absolute;
+  width: 40px;
+
+  border-style: none;
+  background-color: transparent;
+  top: 95%;
+    left: 5%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  
+
+}
+
+
+a.popupLink {
+  color: #118e64;
+ 
+}
+
+a.popupLink:visited {
+  color: #745193;
+
+}
+
+.getListed {
+  
+  color: #118e64;
+}
+
+.supportedProjects {
+  color: #745193;
+}
+
+.popupX {
+
+  position: relative;
+  height: 4%;
+  width: 4%;
+  margin: 20px;
+  border-style: none;
+  background-color: transparent;
+
+}
+
+.popupText {
+  text-align: center;
+  margin: 50px;
+  line-height: 4rem;
+  }
+.popupImg {
+  height: 100%;
+  width: 100%;
 }
 
 

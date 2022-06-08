@@ -306,11 +306,11 @@ h2 {
 }
 
 .popupContainer::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 .popupContainer::-webkit-scrollbar-thumb {
-  background-color: #745193;
+  background-color: #000000;
   border-style: none;
   border-radius: 20px;
 }

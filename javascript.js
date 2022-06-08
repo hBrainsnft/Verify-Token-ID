@@ -111,7 +111,9 @@ function getInputValue() {
 
 
   // Displaying the value
-  if (inputVal == "") {}
+  if (inputVal == "") {
+  
+  }
 
 
   //hbrains
@@ -718,6 +720,83 @@ else if (inputVal == "0.0.575410" ||
       addGreen()}
     
     
+
+
+//CREETS
+
+else if (inputVal == "0.0.586914" || 
+inputVal == "0.0.586941" || 
+inputVal == "0.0.586942" || 
+inputVal == "0.0.586924" || 
+inputVal == "0.0.586944" || 
+inputVal == "0.0.586916" || 
+inputVal == "0.0.586932" || 
+inputVal == "0.0.586929" || 
+inputVal == "0.0.586921" || 
+inputVal == "0.0.586935") {
+  about("CREETS SERIES 0 Collection");
+  addGreen()}
+
+
+
+
+  else if (inputVal == "0.0.587156" || 
+  inputVal == "0.0.587161" || 
+  inputVal == "0.0.587163" || 
+  inputVal == "0.0.587149" || 
+  inputVal == "0.0.587147" || 
+  inputVal == "0.0.587153" || 
+  inputVal == "0.0.587151" || 
+  inputVal == "0.0.587152" || 
+  inputVal == "0.0.587157" || 
+  inputVal == "0.0.587160") {
+    about("CREETS VERTS 0");
+    addGreen()}
+
+
+
+    else if (inputVal == "0.0.613863" || 
+    inputVal == "0.0.613874" || 
+    inputVal == "0.0.613875" || 
+    inputVal == "0.0.613865" || 
+    inputVal == "0.0.613804" || 
+    inputVal == "0.0.613825" || 
+    inputVal == "0.0.613806" || 
+    inputVal == "0.0.613831" || 
+    inputVal == "0.0.613833" || 
+    inputVal == "0.0.613834") {
+      about("CREETS SERIES 1 Collection");
+      addGreen()}
+    
+      else if (inputVal == "0.0.613878" || 
+      inputVal == "0.0.613880" || 
+      inputVal == "0.0.613882" || 
+      inputVal == "0.0.613884" || 
+      inputVal == "0.0.613885" || 
+      inputVal == "0.0.613887" || 
+      inputVal == "0.0.613888" || 
+      inputVal == "0.0.613891" || 
+      inputVal == "0.0.613894" || 
+      inputVal == "0.0.613895") {
+        about("CREETS VERTS 1");
+        addGreen()}
+
+        
+
+
+        else if (inputVal == "0.0.981809" || 
+        inputVal == "0.0.981973") {
+          about("CREETS SERIES B Collection");
+          addGreen()}
+
+
+
+
+
+
+
+
+
 
 
             

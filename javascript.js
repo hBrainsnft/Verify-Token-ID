@@ -742,7 +742,25 @@ function getInputValue() {
   } else if (inputVal == "0.0.777402") {
     about("HAPPY HASH FROGS X ℏBrains Collab");
     addGreen();
-  } else {
+  } 
+  
+  
+  //hangrybarboons
+  else if (inputVal == "0.0.987434") {
+    about("HANGRY BARBOONS - Hangry Heads");
+    addGreen()}
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  else {
     addRed();
     clear();
   }

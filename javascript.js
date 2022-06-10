@@ -61,7 +61,7 @@ function about(des) {
 //token info
 function about2(des) {
   document.getElementById("about").innerHTML =
-    "CONGRATS!!! YOU WON!!!!!: <br><br>" + des;
+    "ALMOST THERE!!!!!: <br><br>" + des;
 }
 
 

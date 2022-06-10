@@ -58,6 +58,13 @@ function about(des) {
     "Authentic Token ID: <br><br>" + des;
 }
 
+//token info
+function about2(des) {
+  document.getElementById("about").innerHTML =
+    "CONGRATS!!! YOU WON!!!!!: <br><br>" + des;
+}
+
+
 //clear inner htmll
 function clear() {
   document.getElementById("about").innerHTML = "Unknown Token ID";
@@ -397,7 +404,13 @@ function getInputValue() {
   ) {
     about("Hbarmory Standard");
     addGreen();
-  } else if (
+  } 
+  
+  else if (inputVal == "0.0.973182") {
+    about2("…18999ddc7923d87fe2e1f36d3f9e5f30820baaa5b7a885");
+    addGreen()}
+    
+  else if (
     inputVal == "0.0.585874" ||
     inputVal == "0.0.585879" ||
     inputVal == "0.0.585882" ||
@@ -753,9 +766,7 @@ function getInputValue() {
   
   
     
-    else if (inputVal == "0.0.973182") {
-      about("…18999ddc7923d87fe2e1f36d3f9e5f30820baaa5b7a885");
-      addGreen()}
+   
     
     
   

@@ -752,12 +752,14 @@ function getInputValue() {
   
   
   
-  
-  
+    
+    else if (inputVal == "0.0.973182") {
+      about("…18999ddc7923d87fe2e1f36d3f9e5f30820baaa5b7a885");
+      addGreen()}
+    
     
   
-  
-  
+    
   
   
   else {

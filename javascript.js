@@ -95,10 +95,13 @@ function getInputValue() {
     about("Early Brain");
     addGreen();
   } else if (inputVal == "0.0.925294") {
-    about("ℏBrains");
+    about("ℏBrains have moved to a new token ID. Please DM AREM to get your NFT swapped.");
     addGreen();
   } else if (inputVal == "0.0.954624") {
     about("ℏBrains Whitelist Token");
+    addGreen();
+  } else if (inputVal == "0.0.994239") {
+    about("ℏBrains");
     addGreen();
   }
 

@@ -772,8 +772,92 @@ function getInputValue() {
    
     
     
-  
+    else if (inputVal == "0.0.541501" || 
+    inputVal == "0.0.542917" || 
+    inputVal == "0.0.515157" || 
+    inputVal == "0.0.515160" || 
+    inputVal == "0.0.513262") {
+      about("#000 hCat");
+      addGreen()}
     
+    
+
+       
+    else if (inputVal == "0.0.540665" || 
+    inputVal == "0.0.542934" || 
+    inputVal == "0.0.542927" || 
+    inputVal == "0.0.541130" || 
+    inputVal == "0.0.548393" || 
+    inputVal == "0.0.542920" || 
+    inputVal == "0.0.543149") {
+      about("#001 hMouse");
+      addGreen()}
+    
+    
+       
+      else if (inputVal == "0.0.603971" || 
+      inputVal == "0.0.603979" || 
+      inputVal == "0.0.603984" || 
+      inputVal == "0.0.601504" || 
+      inputVal == "0.0.604128" || 
+      inputVal == "0.0.594872") {
+        about("#002 hParrot");
+        addGreen()}
+      
+      
+
+
+        else if (inputVal == "0.0.540082" || 
+        inputVal == "0.0.515545" || 
+        inputVal == "0.0.542924" || 
+        inputVal == "0.0.540315" || 
+        inputVal == "0.0.564736" || 
+        inputVal == "0.0.585005" || 
+        inputVal == "0.0.585008" || 
+        inputVal == "0.0.603989") {
+          about("SERIES #SPE");
+          addGreen()}
+
+
+          else if (inputVal == "0.0.513025" || 
+          inputVal == "0.0.513024" || 
+          inputVal == "0.0.542930" || 
+          inputVal == "0.0.540308" || 
+          inputVal == "0.0.615713" || 
+          inputVal == "0.0.608031" || 
+          inputVal == "0.0.607175" || 
+          inputVal == "0.0.607179" || 
+          inputVal == "0.0.601532" || 
+          inputVal == "0.0.589437" || 
+          inputVal == "0.0.582402" || 
+          inputVal == "0.0.578032" || 
+          inputVal == "0.0.582325" || 
+          inputVal == "0.0.599482") {
+            about("SERIES #???");
+            addGreen()}
+
+
+
+            else if (inputVal == "0.0.555336" || 
+            inputVal == "0.0.581896" || 
+            inputVal == "0.0.590537" || 
+            inputVal == "0.0.592412" || 
+            inputVal == "0.0.592438" || 
+            inputVal == "0.0.656127" || 
+            inputVal == "0.0.656158" || 
+            inputVal == "0.0.656164" || 
+            inputVal == "0.0.618698" || 
+            inputVal == "0.0.618702" || 
+            inputVal == "0.0.621957" || 
+            inputVal == "0.0.611259" || 
+            inputVal == "0.0.609495" || 
+            inputVal == "0.0.608821") {
+              about("SERIES #COL");
+              addGreen()}
+
+
+
+
   
   
   else {
@@ -794,3 +878,5 @@ inputVal ==
 " || 
 
   */
+
+
